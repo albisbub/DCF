@@ -73,7 +73,6 @@ def visualize_bulk_historicals(dcfs, ticker, condition):
     plt.ylabel('Share price ($)')
     plt.legend(loc = 'upper right')
     plt.title('$' + ticker + '  ')
-    plt.savefig('imgs/{}_{}.png'.format(ticker, list(condition.keys())[0]))
     plt.show()
 
 def visualize_historicals(dcfs):
