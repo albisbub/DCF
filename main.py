@@ -120,3 +120,5 @@ def multiple_tickers():
 
 #     args = parser.parse_args()
 #     main(args)
+if __name__ == "__main__":
+   main(sys.argv[1:])
